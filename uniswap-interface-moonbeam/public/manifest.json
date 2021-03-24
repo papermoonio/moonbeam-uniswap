@@ -1,0 +1,16 @@
+{
+  "short_name": "DCTDEX",
+  "name": "DCTDEX",
+  "icons": [
+    {
+      "src": "./logo.png",
+      "sizes": "864x864",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#ff007a",
+  "background_color": "#fff"
+}
