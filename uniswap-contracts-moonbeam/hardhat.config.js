@@ -8,7 +8,7 @@ require('@nomiclabs/hardhat-ethers');
 const privateKey1 =
    '99b3c12287537e38c90a9219d4cb074a89a16e9cdb20bf85728ebd97c343e342';
 const privateKey2 =
-   'd2d0ac4e9a8d6bff910a529477f7ea76c457e7f9e1e7b04d7d85d9cd7c63c1e6';
+   'YOUR-PRIVATE-KEY-HERE';
 
 module.exports = {
    defaultNetwork: 'hardhat',
@@ -23,7 +23,7 @@ module.exports = {
          chainId: 1287,
       },
       standalone: {
-         url: 'http://127.0.0.1:9937',
+         url: 'http://127.0.0.1:9933',
          accounts: [privateKey1],
          network_id: '1281',
          gasPrice: 0,
