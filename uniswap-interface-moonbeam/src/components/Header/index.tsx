@@ -112,21 +112,6 @@ const BalanceText = styled(Text)`
   `};
 `
 
-/*const StyledText = styled.span`
-  color: #5b3926;
-  font-family: 'Reem Kufi', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  margin-left: 8px;
-  @media (max-width: 400px) {
-    display: none;
-  }
-`
-const MasterChefText = styled.span`
-  font-family: 'Kaushan Script', sans-serif;
-`*/
-
 const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.MAINNET]: null,
   [ChainId.STANDALONE]: 'Moonbase Standalone',
