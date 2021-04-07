@@ -4,7 +4,7 @@
   "homepage": ".",
   "private": true,
   "devDependencies": {
-    "moonbeamswap": "1.0.1",
+    "moonbeamswap": "1.0.2",
     "@ethersproject/experimental": "^5.0.1",
     "@popperjs/core": "^2.4.4",
     "@reach/dialog": "^0.10.3",
