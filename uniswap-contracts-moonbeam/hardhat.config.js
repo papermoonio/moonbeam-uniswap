@@ -22,7 +22,7 @@ module.exports = {
          gasPrice: 0,
          chainId: 1287,
       },
-      standalone: {
+      dev: {
          url: 'http://127.0.0.1:9933',
          accounts: [privateKey1],
          network_id: '1281',
