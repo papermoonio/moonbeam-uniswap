@@ -1,7 +1,7 @@
 {
   "name": "moonbeamswap",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "🛠 An example SDK for building applications on top of Uniswap in Moonbeam.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

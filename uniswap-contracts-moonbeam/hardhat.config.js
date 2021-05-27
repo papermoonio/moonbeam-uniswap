@@ -5,10 +5,11 @@
 require('@nomiclabs/hardhat-ethers');
 
 // Change private keys accordingly - ONLY FOR DEMOSTRATION PURPOSES - PLEASE STORE PRIVATE KEYS IN A SAFE PLACE
-const privateKey1 =
-   '99b3c12287537e38c90a9219d4cb074a89a16e9cdb20bf85728ebd97c343e342';
-const privateKey2 =
-   'YOUR-PRIVATE-KEY-HERE';
+// Export your private key as
+//       export PRIVKEY=0x.....
+const privateKey = process.env.PRIVKEY;
+const privateKeyDev =
+   '0x99b3c12287537e38c90a9219d4cb074a89a16e9cdb20bf85728ebd97c343e342';
 
 module.exports = {
    defaultNetwork: 'hardhat',
@@ -18,15 +19,13 @@ module.exports = {
 
       moonbase: {
          url: 'https://rpc.testnet.moonbeam.network',
-         accounts: [privateKey2],
-         gasPrice: 0,
+         accounts: [privateKey],
          chainId: 1287,
       },
       dev: {
          url: 'http://127.0.0.1:9933',
-         accounts: [privateKey1],
+         accounts: [privateKeyDev],
          network_id: '1281',
-         gasPrice: 0,
          chainId: 1281,
       },
    },
