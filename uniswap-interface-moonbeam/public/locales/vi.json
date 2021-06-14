@@ -65,7 +65,7 @@
 	"totalSupplyIs0": "Tổng cung hiện tại của đồng thanh khoản là 0.",
 	"tokenWorth": "Tại tỷ giá hối đoái hiện tại, giá trị đồng token của quỹ là",
 	"firstLiquidity": "Bạn là người đầu tiên thêm thanh khoản!",
-	"initialExchangeRate": "Tỷ giá hối đoái ban đầu sẽ được thiết lập dựa trên tiền gửi của bạn. Vui lòng đảm bảo rằng tiền gửi ETH và {{ label }} của bạn có cùng giá trị tiền định danh.",
+	"initialExchangeRate": "Tỷ giá hối đoái ban đầu sẽ được thiết lập dựa trên tiền gửi của bạn. Vui lòng đảm bảo rằng tiền gửi DEV và {{ label }} của bạn có cùng giá trị tiền định danh.",
 	"removeLiquidity": "Loại bỏ thanh khoản",
 	"poolTokens": "Đồng tiền ảo của quỹ",
 	"enterLabelCont": "Nhập giá trị {{ label }} để tiếp tục",

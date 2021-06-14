@@ -57,7 +57,7 @@
 	"totalSupplyIs0": "El actual suministro total de tokens de liquidez es 0.",
 	"tokenWorth": "Al tipo de cambio actual, cada token del pool vale",
 	"firstLiquidity": "Es la primer persona en agregar liquidez!",
-	"initialExchangeRate": "El tipo de cambio inicial se establecerá en función de sus depósitos. Por favor, asegúrese de que sus depósitos en ETH y {{ label }} tengan el mismo valor fíat.",
+	"initialExchangeRate": "El tipo de cambio inicial se establecerá en función de sus depósitos. Por favor, asegúrese de que sus depósitos en DEV y {{ label }} tengan el mismo valor fíat.",
 	"removeLiquidity": "Remover Liquidez",
 	"poolTokens": "Pool de Tokens",
 	"enterLabelCont": "Ingresa un valor de {{ label }} para continuar.",

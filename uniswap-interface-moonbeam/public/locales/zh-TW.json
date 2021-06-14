@@ -57,7 +57,7 @@
   "totalSupplyIs0": "目前流動性代幣供給為零。",
   "tokenWorth": "依據目前的匯率，每個流動性代幣價值",
   "firstLiquidity": "您是第一個提供流動性資金的人！",
-  "initialExchangeRate": "初始的匯率將取決於你存入的資金。請確保存入的 ETH 和 {{ label }} 的價值相等。",
+  "initialExchangeRate": "初始的匯率將取決於你存入的資金。請確保存入的 DEV 和 {{ label }} 的價值相等。",
   "removeLiquidity": "領出流動性資金",
   "poolTokens": "資金池代幣",
   "enterLabelCont": "輸入 {{ label }} 以繼續。",

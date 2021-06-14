@@ -57,7 +57,7 @@
   "totalSupplyIs0": "Actuala ofertă totală de tokene disponibile este 0.",
   "tokenWorth": "La acest schimb valutar, fiecare token disponibil este estimată la",
   "firstLiquidity": "Ești prima persoană care aduce lichiditate!",
-  "initialExchangeRate": "Schimbul valutar inițial va fi setat în funcție de depozitul tău. Te rog asigură-te că depoziturile ETH și {{ label }} pe care le-ai făcut au aceeași valoare în monezi naționale.",
+  "initialExchangeRate": "Schimbul valutar inițial va fi setat în funcție de depozitul tău. Te rog asigură-te că depoziturile DEV și {{ label }} pe care le-ai făcut au aceeași valoare în monezi naționale.",
   "removeLiquidity": "Elimină Lichiditate",
   "poolTokens": "Extrage Tokene",
   "enterLabelCont": "Setează o valoare pentru {{ label }} pentru a continua.",
