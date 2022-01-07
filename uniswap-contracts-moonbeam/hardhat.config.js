@@ -18,7 +18,7 @@ module.exports = {
       hardhat: {},
 
       moonbase: {
-         url: 'https://rpc.testnet.moonbeam.network',
+         url: 'https://rpc.api.moonbase.moonbeam.network',
          accounts: [privateKey],
          chainId: 1287,
       },
