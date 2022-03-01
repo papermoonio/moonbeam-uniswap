@@ -25,7 +25,7 @@ const DEVSCAN_PREFIXES: { [chainId in ChainId]: string } = {
 
 export function getEtherscanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
   //const prefix = `https://${DEVSCAN_PREFIXES[chainId] || DEVSCAN_PREFIXES[1]}etherscan.io`
-  const prefix = 'https://moonbase-blockscout.api.moonbase.moonbeam.network'
+  const prefix = 'https://moonbase.moonscan.io'
   switch (type) {
     case 'transaction': {
       return `${prefix}/tx/${data}`
